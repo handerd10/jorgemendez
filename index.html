@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Jorge Mendez Hernandez - Representante a la camara de san andres" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link type="image/x-icon" href="image/codeico.png" rel="icon" />
+	<link href="https://fonts.googleapis.com/css?family=K2D:300|Rambla:700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<title>Jorge Mendez Hernandez - Representante a la Camara</title>
+</head>
+
+<body>
+	<div class="loader">
+		<div class="loader__container">
+			<div class="loader__hexagon"></div>
+			<p class="loader__message">Cargando Mendez...</p>
+		</div>
+	</div>
+
+	<div class="blanketBody"></div>
+
+	<div class="control-actions">
+		<span class="control-actions__menu"><i class="fas fa-bars"></i></span>
+	</div>
+
+	<div class="container-master">
+		<!-- Éste es el menú para dispositivos móviles y tablet's -->
+		<div class="myself__container__menu">
+			<div class="myself__data">
+				<div class="myself__data__container-avatar">
+					<div class="myself__data__avatar"></div>
+				</div>
+				<div class="myself__data__info">
+					<h4 class="myself__data__info__fullname">Jorge Mendez Hernandez</h4>
+					<p class="myself__data__info__role">Representante a la Camara de Del Departamento archipielago de
+						Andres, Providencia y Santa Catalina</p>
+				</div>
+			</div>
+
+			<ul class="myself__menu">
+				<a href="#home" class="myself__menu__link myself__menu__link--active">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-home fa-stack-1x fa-inverse"></i>
+						</span>
+						Inicio
+					</li>
+				</a>
+				<a href="#welcome" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-lightbulb fa-stack-1x fa-inverse"></i>
+						</span>
+						Acerca de Mi
+					</li>
+				</a>
+				<a href="#portfolio" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+						</span>
+						Mi Portafolio
+					</li>
+				</a>
+				<a href="#vision" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-square fa-stack-2x"></i>
+							<i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
+						</span>
+						Vision
+					</li>
+				</a>
+				<a href="#contact" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-address-book fa-stack-1x fa-inverse"></i>
+						</span>
+						Contáctame
+					</li>
+				</a>
+				<a href="#biografia" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-square fa-stack-2x"></i>
+							<i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+						</span>
+						Biografia
+					</li>
+				</a>
+			</ul>
+		</div>
+
+		<!-- Esta es la sección principal, donde se muestra la información básica -->
+		<section class="container__myself">
+			<span class="myself__menu__action"><i class="fas fa-bars"></i></span>
+
+			<article class="myself">
+				<div class="myself__profile">
+					<div class="myself__container__avatar">
+						<div class="myself__avatar"></div>
+					</div>
+					<h1 class="myself__fullname">Jorge Mendez Hernandez</h1>
+					<p class="myself__description">Representante a la Camara del Departamento Archipielago de Andres,
+						Providencia y Santa Catalina</p>
+					<!--<p class="myself__description">CEO en <a href="http://www.isd-group.co"
+							class="jf-links myself__community" target="_blank">ISD GROUP</a></p>
+					<p class="myself__description">Organizador en <a href="http://meetup.com/monteriajs"
+							class="jf-links myself__community" target="_blank">MonteríaJS</a></p>
+					-->
+						</div>
+				<div class="myself__footer">
+					<div class="myself__footer__by">
+						<p>Hecho con <i class="fa fa-heart" style="color:#e75353;"></i></p>
+						<p>
+							<em>© 2021 Jorge Mendez Hernandez</em>
+						</p>
+					</div>
+					<div class="myself__footer__social">
+						<a class="myself__footer__link" href="https://www.instagram.com/jorgemendez0723/"
+							target="_blank">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a class="myself__footer__link" href="https://twitter.com/jorgemendez0723" target="_blank">
+							<i class="fab fa-twitter-square"></i>
+						</a>
+						<a class="myself__footer__link" href="https://www.facebook.com/jorge.m.hernandez.9809" target="_blank">
+							<i class="fab fa-facebook-square"></i>
+						</a>
+						<a class="myself__footer__link" href="mailto:jorge.mendez@camara.gov.co" target="_blank">
+							<i class="fas fa-envelope"></i>
+						</a>
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<!-- Éste contenedor muestra los artículos que actualmente están en la página -->
+		<section class="container__articles">
+			<nav class="menu">
+				<ul class="menu-list">
+					<a href="#welcome" class="menu-list__link menu-list__link--active">
+						<li class="menu-list__item">Acerca de Mi</li>
+					</a>
+					<a href="#portfolio" class="menu-list__link">
+						<li class="menu-list__item">Mi Portafolio</li>
+					</a>
+					<a href="#vision" class="menu-list__link">
+						<li class="menu-list__item">vision</li>
+					</a>
+					<a href="#contact" class="menu-list__link">
+						<li class="menu-list__item">Contáctame</li>
+					</a>
+					<a href="#biografia" class="menu-list__link">
+						<li class="menu-list__item">Biografia</li>
+					</a>
+				</ul>
+			</nav>
+
+			<article class="welcome article--show" id="welcome">
+				<h2 class="welcome__title">¡Bienvenido!</h2>
+				<p class="welcome__description">En este portal encontraras información relevante concerniente a 
+					nuestro Representante a la Cámara, Doctor. 
+					<strong>Jorge Mendez Hernandez</strong>, 
+					como portavoz de nuestro hermoso Departamento Archipiélago de San Andrés, Providencia y 
+					Santa catalina (2018-2022). nació en XXXXXXx de madre XXXX y padre XXXX, su crianza, pilar 
+					de su generosidad de espíritu refleja sus raíces. los valores caseros que le incluyeron, 
+					junto con su innato sentido optimismo, llevó a Méndez a dedicar su vida a dar lo mejor a los 
+					habitantes del Departamento, en el cual echó sus raíces y edificó su proyecto de vida.
+					<br>
+					<br>
+					Luego de trabajar en hoteles solar y Decamerón inició un proceso aprendizaje como estudiante 
+					de Derecho para obtener el título de abogado; el XX dia de XXX mes del XXXaño Jorge Méndez fue 
+					Elegido como representante a la cámara con la mayor votación que cualquier candidato de la 
+					historia en nuestro territorio ha obtenido hasta la fecha; asumió siempre en procura de velar 
+					por el beneficio de nuestra comunidad, hoy en día, cuando nos vemos sometidos a grandes 
+					desafíos, los cuales a su vez conllevan también  grandes cambios, mi liderazgo y el de cada una 
+					de las personas que han creído en este proyecto, representando nuestras hermosas islas ante 
+					nuestra nación, ha marcado el comienzo de un inmenso cambio, no solo en lo político, sino 
+					también en lo social, en la empatía que nuestros coterráneos necesitaban sentir de sus 
+					dirigentes, lo cual ha desencadenado una sociedad con templanza y firmeza de afrontar cada 
+					situación, un Departamento lleno de robustez, que paso a paso lucha por dejar atrás todo aquello 
+					que le ha afectado.   
+					
+
+				
+				
+
+			</article>
+			<!-- PORTAFOLIO -->
+			<article class="portfolio" id="portfolio">
+				<h2 class="portfolio__title">Sobre Mis Intervenciones</h2>
+				<p class="portfolio__description">
+					En esta sección encontrarás los proyectos en los que he trabajado, y publicaciones de mis logros
+					mas emblematicas sobre mi carrera como representante a la camara.
+				</p>
+				<blockquote class="portfolio__blockquote">
+					Puedes encontrar más información sobre mis proyectos en mis
+					perfiles de <strong>Facebook</strong> o <strong>Twitter</strong>.
+				</blockquote>
+
+				<section class="portfolio__works">
+					<!-- Entrevista en Revista El Espectador -->
+					<article class="portfolio__works__item" id="taxadministrador">
+						<div class="portfolio__works__item__header">
+						
+							<h3 class="portfolio__works__item__header__title">
+								“La recuperación va a tardar años”: Jorge Méndez, representante por San Andrés y Providencia
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">Representante a la Cámara por San Andrés, 
+							Providencia y Santa Catalina habla de la destrucción tras el paso del huracán Iota y le pide al 
+							Gobierno nacional tomar decisiones concretas y compromiso para la reconstrucción.</p>
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role">Revista El Espectador <a class="welcome__community"
+								href="https://www.elespectador.com/politica/la-recuperacion-va-a-tardar-anos-jorge-mendez-representante-por-san-andres-y-providencia-article/" 
+								target="_blank">leer noticia...</a>.
+								</div>
+							
+						</div>
+					</article>
+
+					<!-- entrevista the archipielago expres -->
+					<article class="portfolio__works__item" id="busser">
+						<div class="portfolio__works__item__header">
+					
+							<h3 class="portfolio__works__item__header__title">
+								Parlamentario Jorge Méndez Hernández fue distinguido como uno de los mejores 
+								congresistas de Colombia en la entrega de los premios «Politik» esta noche
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">
+							Junto a 4 senadores y 4 Representantes a la Cámara, Méndez Hernández fue condecorado en un evento donde también fueron
+						 galardonados el Comandante del Ejército Nacional, Superintendente de Salud, Presidente de la Sala Civil de la Corte Suprema, 
+						 Gobernador de Antioquia, Rector de la U del Atlántico, Director del Invima, Director de la Dijin, Secretario del Senado, 
+						 Empresarios y Líderes Internacionales.
+						</p>
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role">Revista The Archipielagopress <a class="welcome__community"
+								href="https://thearchipielagopress.co/parlamentario-jorge-mendez-hernandez-fue-distinguido-como-uno-de-los-mejores-congresistas-de-colombia-en-la-entrega-de-los-premios-politik-esta-noche/" 
+								target="_blank">leer noticia...</a>.
+								</div>
+						</div>
+					</article>
+
+					<!-- entrevista blog el tiempo-->
+					<article class="portfolio__works__item" id="yipgo">
+						<div class="portfolio__works__item__header">
+							
+							<h3 class="portfolio__works__item__header__title">
+								#RepresentantesAfros Responden Entrevista con Jorge Méndez Hernández, 
+								nuevo presidente de la Comisión Legal Afro del Congreso
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">Jorge Méndez Hernández es representante a la Cámara por San Andrés 
+							y Providencia y obtuvo 6.876 votos como parte de lista de Cambio Radical. Es abogado especializado en derecho
+							 penal y criminología de la Universidad Libre de Colombia y en contratación estatal de la Universidad de 
+							 Medellín.</p>
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role">Revista Blog el Tiempo<a class="welcome__community"
+								href="https://blogs.eltiempo.com/afrocolombianidad/2019/10/10/representantesafrosresponden-entrevista-jorge-mendez-hernandez-nuevo-presidente-la-comision-legal-afro-del-congreso/" 
+								target="_blank">leer noticia...</a>.
+								</div>
+						</div>
+					</article>
+
+					<!-- Entrevista El isleño -->
+					<article class="portfolio__works__item" id="dashboard">
+						<div class="portfolio__works__item__header">
+							
+							<h3 class="portfolio__works__item__header__title">
+								Jorge Méndez, presidente de la Comisión Primera de la Cámara
+								<a  target="_blank"
+									class="portfolio__works__item__header__title__link"></a>
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">El representante a la Cámara por las islas, Jorge Méndez Hernández, 
+							es el nuevo presidente de la Comisión Primera Constitucional, tras la renuncia de Samuel Hoyos Mejía quien 
+							aspira a la Alcaldía Mayor de Bogotá por el partido Centro Democrático</p>
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role">Revista El Isleño <a class="welcome__community"
+								href="http://xn--elisleo-9za.com/index.php?option=com_content&view=article&id=16789:jorge-mendez-presidente-de-la-comision-primera-de-la-camara&catid=36:politica&Itemid=79" 
+								target="_blank">leer noticia...</a>.
+								</div>
+						</div>
+					</article>
+
+					<!-- Extra -->
+					<article class="portfolio__works__item" id="vrm">
+						<div class="portfolio__works__item__header">
+							
+							<h3 class="portfolio__works__item__header__title">
+								CADA DIA CRECE EL RESPALDO DE LA COMUNIDAD A LAS PROPUESTA
+								DE JORGE MENDEZ HERNANDEZ EN LAS ISLAS
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">El Candidato por Cambio Radical Jorge Méndez Hernández continúa presentando a 
+							la comunidad de las Islas una serie de proyectos de ley que salvaguarden la salud, el bienestar e integridad de todos 
+							y cada uno de los habitantes del Departamento Archipiélago de San Andres, Providencia y Santa Catalina como uno de sus 
+							principales derechos.</p>
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role">Revista Extra <a class="welcome__community"
+								href="https://elextra.co/cada-dia-crece-el-respaldo-de-la-comunidad-a-las-propuestas-de-jorge-mendez-hernandez-en-las-islas/" 
+								target="_blank">leer noticia...</a>.
+								</div>
+						</div>
+					</article>
+
+					<!-- extra -->
+					<article class="portfolio__works__item" id="mipie">
+						<div class="portfolio__works__item__header">
+							
+							<h3 class="portfolio__works__item__header__title">
+								el Candidato de la transformacion jorge mendez Hernandez se reunio con pescadores y Empresariosde de providencia
+								<a href="" target="_blank"
+									class="portfolio__works__item__header__title__link"></a>
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">Escucho las inquietudes y problemática que padecen los providencianos
+
+							El aspirante a la cámara de representantes para el periodo 2018 – 2022, Jorge Méndez Hernández estuvo en Providencia 
+							y Santa Catalina, donde sostuvo reuniones y encuentros con los pescadores artesanales, trabajadores de diferentes áreas,
+							 y algunos empresarios de la isla.</p>
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role">Revista Extra <a class="welcome__community"
+								href="https://elextra.co/el-candidato-de-la-transformacion-jorge-mendez-hernandez-se-reunio-con-pescadores-y-empresarios-de-providencia/" 
+								target="_blank">leer noticia...</a>.
+								</div>
+						</div>
+					</article>
+
+
+					<!-- isleño -->
+					<article class="portfolio__works__item" id="medicall24">
+						<div class="portfolio__works__item__header">
+							
+							<h3 class="portfolio__works__item__header__title">
+							
+								Acción de Cumplimiento para creación de centro financiero
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">El representante a la Cámara Jorge Méndez Hernández, 
+							instauró una Acción de Cumplimiento dirigida a la Presidencia de la República y al Ministerio de Hacienda,
+							 a través de la cual solicita impulsar la creación de un centro financiero internacional en el Departamento
+							  Archipiélago, como lo establece el Artículo 41 de la Ley 47 de 1.993...</p>
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role">Revista El Isleño <a class="welcome__community"
+								href="http://www.xn--elisleo-9za.com/index.php?option=com_content&view=article&id=20109:rep-mendez-accion-de-cumplimiento-para-impulsar-centro-financiero&catid=36:politica&Itemid=79" 
+								target="_blank">leer noticia...</a>.
+								</div>
+						</div>
+					</article>
+				<!-- blue radio -->
+					<article class="portfolio__works__item" id="medicall24">
+						<div class="portfolio__works__item__header">
+							
+							<h3 class="portfolio__works__item__header__title">
+								Mas de 800 familias todavia viven en carpas en 
+								providencia: denuncia en el congreso
+								
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">La denuncia la hizo el representante 
+							Jorge Mendez, quien revelo que cientos de familias en Providencia no tienen un tienen 
+							un techo desde el huracan IOTA. Ademas la temporada de lluvias empezo este 
+							miercoleres, 2 de junio.</p>
+							<div class="portfolio__works__tools">
+								<div class="portfolio__works__tools__role">Revista Blue-Radio <a class="welcome__community"
+									href="https://www.bluradio.com/nacion/mas-de-800-familias-todavia-viven-en-carpas-en-providencia-denuncian-en-el-congreso" 
+									target="_blank">leer noticia...</a>.
+									</div>
+							</div>
+					</article>
+
+				</section>
+			</article>
+
+			<!-- VISION -->
+
+
+			<article class="vision" id="vision">
+				
+				
+				
+				
+				<h2 class="vision__title">¿principios ?</h2>
+				<p class="vision__description">
+					Somos un equipo de trabajo actuando con el liderazgo de Jorge Méndez Hernández, 
+					planteándonos como objetivo propender por nuestras islas, que podamos ser escuchados al 
+					interior del país,  que tengamos representación en todo sentido, que nuestras voces tengan 
+					connotación para que así podamos progresar como sociedad, invocando y accionando con base en 
+					los principios de transparencia, integridad y compromiso que tanto necesita nuestro 
+					archipiélago para dejar de lado aquellos actos que han empañado nuestro progreso. </p>
+<br>
+					<h2 class="vision__title"></h2> <strong>PARTE DE NUESTRO EQUIPO DE TRABAJO</strong> </h2>
+					<br>
+					<p class="vision__description">
+						Si tu misión y visión radica en llevar nuestro Departamento Archipiélago de San Andrés,
+						 Providencia y Santa Catalina, al progreso y a una sociedad empática con los problemas de 
+						 los demás, que siempre esté en pro del pueblo y para el pueblo, te invitamos a hacer parte 
+						 de este equipo de trabajo, que más allá de ser un trabajo lo consideramos una colaboración 
+						 en familia, que lucha unida y permanece unida, todo para lograr el desarrollo de nuestras islas.  </p>
+
+			</article>
+
+	<!-- BIOGRAFIA -->
+	<article class="biografia" id="biografia">
+		<h2 class="biografia__title">Quien es Jorge Mendez?</h2>
+		<p class="biografia__description">Abogado especializado en Derecho Penal y Criminología de la Universidad 
+			Libre de Colombia, y en Contratación Estatal de la Universidad de Medellín, candidato a magister en 
+			Derecho Laboral y Seguridad Social de la Universidad Libre de Colombia. Técnico en Relaciones 
+			Industriales SENA, Diplomado en Gestión de Proyectos en Zonas Costeras (ESAP - San Andrés 2009) y en 
+			Derechos Humanos (UNAM México, 2015). Diputado de la Asamblea Departamental del Archipiélago de San 
+			Andrés Providencia y Santa Catalina en los periodos 2008 al 2015, presidente de la Asamblea en el año 
+			2013, obteniendo la votación más alta de la historia de la Asamblea. Jefe de Recursos Humanos Hoteles 
+			Solar (1996 - 2001) y Hoteles Decamerón (2003 - 2007)
+			<br>
+			<br>
+			Elegido personaje del año RCN en San Andrés Isla (2009), reconocido por el SENA como uno de los 
+			egresados más exitosos en su historia.
+			<br>
+			<br>
+
+			Representante a la Cámara en el periodo constitucional 2018 – 2022 por el departamento Archipiélago 
+			de San Andres Providencia y Santa Catalina, Vicepresidente de la Comisión Primera y Presidente de la
+			 Comisión de Ética y Estatuto del Congresista (2018 - 2019), Presidente de la Comisión Legal Afro en 
+			 el periodo legislativo (2019 - 2020) y pertenece a las comisiones accidentales: Sociedad de Activos 
+			 Especiales, Educación Superior, Código de Policía, Lucha Contra el Hambre, Estatuto Raizal, Grupo de 
+			 Amistades de Japón, Austria.</p>
+
+
+
+	</article>
+			<!-- contcatos -->
+
+			<article class="contact" id="contact">
+				<h2 class="contact__title"> Quieres hacer parte de nuestro equipo de trabajo</h2>
+				<p class="contact__description">Has llegado al lugar indicado. Actualmente hago parte de un excelente
+					grupo de trabajo, dispuesto a solucionar problematicas usando las mejore estrategias para el desarrollo.  <br> <br> Puedes contactarme para tomarnos un café y así hablar de tu idea.
+					Podrás encontrar mis redes sociales en el panel principal o si deseas, puedes escribirme a mi correo electronico
+					<a class="welcome__community"
+						href="https://mail.google.com/mail/?view=cm&fs=1&to=jorge.mendez@camara.gov.co"
+						target="_blank">jorge.mendez@camara.gov.co</a>. <br>
+						
+						<br> Si quieres saber más de mi nuestro representante. 
+					<a class="welcome__community"
+						href="https://www.camara.gov.co/representantes/jorge-mendez-hernandez" target="_blank">aquí</a>.
+				</p>
+
+			 	<h2 class="contact__title">TRABAJEMOS JUNTOS</h2>
+				<p class="contact__description">¡Excelente! <br> 
+					<br> Puedes escribirle y comentarle de qué forma quieres hacer parte de la comunidad, 
+					es decir, ya sea como speaker, colaborador, patrocinador o formar parte del equipo 
+					organizador. 
+					<br> Ten la plena seguridad que estaremos con los brazos abiertos esperando a que contribuyas con tus ideas 
+					y tus conocimientos a través de la comunidad para transmitirlo hacia todas las personas que disfrutan y 
+					asisten a nuestros eventos. 
+					<br> <br> Puedes seguirnos en nuestras redes sociales ¡Te esperamos!</p>
+
+				<div class="contact__social">
+					<a class="contact__social__link" href="https://www.instagram.com/jorgemendez0723/" target="_blank">
+						<i class="fab fa-instagram" style="color: palevioletred;"></i>
+					</a>
+					<a class="contact__social__link" href="https://twitter.com/jorgemendez0723" target="_blank">
+						<i class="fab fa-twitter-square" style="color: #2196F3;"></i>
+					</a>
+					<a class="contact__social__link" href="https://www.facebook.com/jorge.m.hernandez.9809" target="_blank">
+						<i class="fab fa-facebook-square" style="color: #4267b2;"></i>
+					</a>
+					<a class="contact__social__link" href="mailto:jorge.mendez@camara.gov.co" target="_blank">
+						<i class="fas fa-envelope" style="color:#124ceb;"></i>
+					</a>
+				</div>
+
+
+				<div class="wrapper">
+					
+					<div class="icon facebook">
+					  <div class="tooltip">Facebook</div>					  
+					  <span>
+						<a class="contact__social__link" href="https://www.facebook.com/jorge.m.hernandez.9809" target="_blank">
+							<i class="fab fa-facebook-f" style="color: #000000;"></i>
+					</span>
+					</div>
+
+					<div class="icon twitter">
+					  <div class="tooltip">Twitter</div>
+					  <span>
+						<a class="contact__social__link" href="https://twitter.com/jorgemendez0723" target="_blank">
+							<i class="fab fa-twitter" style="color: #000000;"></i>
+					</span>
+					</div>
+
+					<div class="icon instagram">
+					  <div class="tooltip">Instagram</div>
+					  <span>
+						<a class="contact__social__link" href="https://www.instagram.com/jorgemendez0723/" target="_blank">
+							<i class="fab fa-instagram" style="color: rgb(0, 0, 0);"></i>
+					</span>
+					</div>
+
+					<div class="icon mail">
+					  <div class="tooltip">Mail</div>
+					  <span>
+						<a class="contact__social__link" href="mailto:jorge.mendez@camara.gov.co" target="_blank">
+							<i class="far fa-envelope" style="color:#000000;"></i>
+					  </span>
+					</div>
+
+					<div class="icon wpp">
+						<div class="tooltip">WhatsApp</div>
+						<span>
+						  <a class="contact__social__link" href="" target="_blank">
+							  <i class="fa fa-whatsapp" aria-hidden="true" style="color:#000000;"></i>
+						</span>
+					  </div>
+
+					  <div class="icon telegram">
+						<div class="tooltip">Telegram</div>
+						<span>
+						  <a class="contact__social__link" href="" target="_blank">
+							  <i class="fab fa-telegram-plane" aria-hidden="true" style="color:#000000;"></i>
+						</span>
+					  </div>
+				  </div>
+			</article>
+		
+
+		</section>
+	</div>
+
+	<script src="https://kit.fontawesome.com/74a0a4aba0.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
